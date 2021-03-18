@@ -4,3 +4,17 @@ html {
 }
 
 
+.heart-red {
+  fill:red;
+  color:#d35f5f;
+}
+
+.heart-green {
+  fill:green;
+  color:#5ece7f;
+}
+
+.heart-blue {
+  fill:blue;
+  color:#38acd0;
+}

@@ -1,0 +1,48 @@
+h2{
+  font-size: 30px;
+  text-align: center;
+  color: #648f94;
+}
+img{width: 100%;}
+body{
+display: grid;
+height:100vh;
+grid-template-rows: 10% 1fr;
+grid-template-columns: 10% 1fr;
+grid-template-areas: 
+"nav main"
+"nav main"
+
+;
+}
+.sidebar {
+height: 100%;
+grid-area: nav;
+padding-top:500px;
+display: flex;
+align-items: center;
+flex-direction: column;
+background-color:#89C5CC;
+overflow-x: hidden;
+padding-top: 160px;
+}
+svg{
+height: 30px;
+}
+.sidebar a {
+text-decoration: none;
+font-size: 20px;
+margin-top: 25px;
+color:black;
+display: block;
+}
+#banner{
+height: 90vh;
+}
+
+.main {
+margin: auto;
+grid-area: "main";
+padding: 0px 10px;
+}
+.st0{fill:#FFFFFF;}
